@@ -1,0 +1,63 @@
+/*CSS kalba*/
+
+body{
+	margin:0;
+}
+
+
+#pirmas{
+	width:100px;
+	height:100px;
+	background-color:red;
+	float:left;
+}
+
+#antras{
+	width:100px;
+	height:100px;
+	background-color:blue;
+	float:right;
+}
+	
+#clear {
+	clear:both;
+}
+#trecias{
+	width:100px;
+	height:100px;
+	background-color:green;
+	position:relative;
+	left:150px;
+}
+
+#keturi{
+	width:100px;
+	height:100px;
+	background-color:yellow;
+	position:absolute;
+	top:50px;
+	left:20px;
+}
+		#penki{width:100px;height:100px;background-color:brown;}          
+		#sesi{width:100px;height:100px;background-color:pink;}
+		.mazi {width:20px;height:20px;background-color:red; margin:10px;}
+		
+ul{
+	background-color:pink;
+	text-align:center;
+	padding: 10px 50px;
+	margin:0;
+}
+
+li{
+	display:inline-block;
+	height:50px;
+	
+}
+
+#flexbox {
+	background-color:yellow;
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+}

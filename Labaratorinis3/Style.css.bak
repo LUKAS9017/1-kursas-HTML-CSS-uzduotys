@@ -1,0 +1,124 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: #ECECEC;
+	font-weight: bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #FFF;
+	text-align: center;
+	line-height: 24px;
+}
+.wrapper {
+    position: relative;
+	background-color: #FFF;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+.wrapper2 {
+    position: relative;
+	background-color: #FFF;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+    margin-bottom: 25px;
+    padding: 0px;
+}
+.wrapper3 {
+    position: relative;
+	background-color: #FFF;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	width: 800px;
+	height: 2px;
+	margin-right: auto;
+	margin-left: auto;
+    margin-bottom: 25px;
+    padding: 0px;
+}
+.red {
+	background-color: #900;
+}
+.green {
+	background-color: #090;
+}
+.blue {
+	background-color: #00F;
+}
+.purple {
+	background-color: #63C;
+}
+.footer {
+	background-color: #666; margin: 5px;
+}
+h1 {
+	color: #000;
+	font-weight: normal;
+	padding: 50px;
+}
+
+.box {border: 0; width: 380px; height: 200px; margin: 5px}
+
+.box1 {border: 0; width: 185px; height: 185px; margin: 5px}
+
+.box2 {border: 0; width: 185px; height: 185px; margin: 8px}
+
+.box3 {border: 0; width: 185px; height: 185px; margin: 0}
+
+.fl {float: left}
+
+.fr {float: right}
+
+.clear {clear: both}
+
+.dib {display: inline-block}
+
+.flex-container {display: flex}
+
+.topleft {position: absolute; top: 0}
+
+.topright {position: absolute; top: 0; right: 0}
+
+.bottomleft {position: absolute; bottom: 0px}
+
+.bottomright {position: absolute; bottom: 0; right: 0}
+
+.center {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}
+
+.height {height: 800px}
+
+.fixed {position: fixed}
+
+.relativetop {position: relative; top: 0; left: 185px}
+
+.relativemid {position: relative; top: 0px; left: 370px}
+
+.relativebottom {position: relative; bottom: 0; right: -555px}
+
+.isnyk {display: none}

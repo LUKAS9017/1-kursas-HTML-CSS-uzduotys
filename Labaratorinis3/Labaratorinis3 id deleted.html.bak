@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+	<meta charset="UTF-8"> <!--metagairė koduotei nurodyti-->
+	<link rel="stylesheet" href="\\AD-Svako.domenas.svako.lt\studentu_profiliai$\lukdap\Desktop\2 Lukas Dapkevicius Internetiniu sistemu programavimas\Lukas_Dapkevičius_Labaratorinių_darbų_aplankas\Labaratorinis3\Style.css" type="text/css">
+	<title>Labaratorinis3.html</title>
+</head>
+<body>
+<h1> Pozicionavimas </h1>
+<div class="wrapper">
+	<div class="red fl box"> Red </div>
+	<div class="green fr box"> Green </div>
+	<div class="blue fl box clear"> Blue </div>
+	<div class="purple fr box"> Purple </div>
+	<div class="clear footer"> Footer </div>
+</div>
+<div class="wrapper">
+	<div class="red dib box1"> Red </div>
+	<div class="green dib box1"> Green </div>
+	<div class="blue dib box1"> Blue </div>
+	<div class="purple dib box1"> Purple </div>
+	<div class="clear footer"> Footer </div>
+</div>
+<div class="wrapper">
+<div class="flex-container">
+	<div class="red box2"> Red </div>
+	<div class="green box2"> Green </div>
+	<div class="blue box2"> Blue </div>
+	<div class="purple box2"> Purple </div>
+</div>
+	<div class="clear footer"> Footer </div>
+</div>
+<div class="wrapper2 height">
+	<div class="red topleft box3"> Red </div>
+	<div class="green topright box3"> Green </div>
+	<div class="blue bottomleft box3"> Blue </div>
+	<div class="purple bottomright box3"> Purple </div>
+	<div class="clear box3 center footer"> Footer </div>
+</div>
+<div class="wrapper3">
+	<div class="red relativetop box3"> Red </div>
+	<div class="green fixed topright box3"> Green </div>
+	<div class="blue relativemid box3"> Blue </div>
+	<div class="purple relativebottom box3"> Purple </div>
+	<div class="isnyk footer"> Footer </div>
+</div>
+</body>
+</html>

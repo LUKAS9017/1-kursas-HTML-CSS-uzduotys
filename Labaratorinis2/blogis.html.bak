@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+	<meta charset="UTF-8"> <!--metagairė koduotei nurodyti-->
+	<title>Labaratorinis2.html</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+	<h1> Panorama HOTEL Meniu </h1>
+	<address>VIEŠBUTIS PANORAMA, Sodų g. 14, Vilnius LT&mdash;03211, Lietuva </address>
+</header>
+<section style="background-color: green"> Salotos ir šaltieji patiekalai </section>
+<section style="background-color: red"> Karštieji patiekalai </section>
+<section style="background-color: pink"> Saldieji patiekalai </section>
+</body>
+</html>

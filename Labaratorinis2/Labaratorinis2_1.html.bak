@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+	<meta charset="UTF-8"> <!--metagairė koduotei nurodyti-->
+	<title>Labaratorinis2.html</title>
+	<style>  
+	.bgreen {background-color: green}
+	.bred {background-color: red}
+	.bpink {background-color: pink}
+	.ppavadinimas {text-decoration-line: underline; font-weight: bold}
+	.kaina {color: red}
+	.italic {font-style: italic}
+	</style>
+</head>
+<body>
+<header>
+	<h1> Panorama HOTEL Meniu </h1>
+	<address>VIEŠBUTIS PANORAMA, Sodų g. 14, Vilnius LT&mdash;03211, Lietuva </address>
+</header>
+<br>
+<article class="bgreen"> <h2> Salotos ir šaltieji patiekalai <h2> 
+<p>
+<span class="ppavadinimas"> ŽALIŲ LAŠIŠŲ UŽKANDIS </span> <br>
+<ul><li>Žalių lašišų filė, didieji kapariai, cukinijos, parmezanas. Patiekiama su skrudinta duona ir citrinos skiltele. <span class="kaina italic"> 7 Eurai </span> </li></ul>
+<br> <br>
+<span class="ppavadinimas"> ŽALIOS JAUTIENOS UŽKANDIS </span> <span class="kaina" syle="font-weight: bold"> Naujiena </span> <br>
+<ul><li>Žalia jautiena, parmezanas, alyvuogių aliejaus ir balzaminio acto užpilas. Patiekiama su skrudinta duona ir citrinos skiltele. <span class="kaina" style="font-style: italic"> 8 Eurai </span> </li></ul>
+<br> <br>
+<span class="ppavadinimas"> SILKIŲ UŽKANDIS </span> <br>
+<ul><li>Silkių filė suktinukai, marinuoti agurkėliai, didieji kapariai, mėlynieji svogūnai, majonezas. Patiekiama su juodos duonos skrebučiu. <span class="kaina" style="font-style: italic"> 6 Eurai </span> </li></ul>
+</p>
+<!--virsutiniai taskai padaryti, liko kitiems perkopijuoti juos-->
+<!--pakeisk i vidini css stiliu viska-->
+</article>
+<article class="bred"> Karštieji patiekalai </article>
+<article class="bpink"> Saldieji patiekalai </article>
+</body>
+</html>

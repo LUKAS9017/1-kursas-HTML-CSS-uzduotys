@@ -1,0 +1,56 @@
+* {margin: 0; padding: 0;}
+
+body {background: #ebeaea}
+
+nav {height: fit-content; padding: 15px; color: #a9a5a5; background-color: #4f4747}
+
+.center {display: block; margin-left: auto; margin-right: auto}
+
+.TextCenter {text-align: center}
+
+.flex-container {display: flex; justify-content: center}
+
+.flex-container > div {padding-left: 40px; padding-right: 40px}
+
+/* unvisited link */
+a:link {color: #a9a5a5}
+
+/* visited link */
+a:visited {color: #a9a5a5}
+
+/* mouse over link */
+a:hover {color: #ffffff}
+
+/* selected link */
+a:active {color: #000000}
+
+.container {max-width: 600px; background-color: white; line-height: 1.5; padding: 1em}
+
+.container > h1 {margin-top: 0.6em; color: #74927b}
+
+.container > p {color:#999696}
+
+.container > img {width: 100%}
+
+.sep {width: 100%}
+
+#continue {color: #8ba492; font-style: italic}
+
+footer {width: fit-content; height: fit-content; margin-left: auto; margin-right: auto; font-size: 0.9em; color:#b4b0af}
+
+@media print {body {font-family: 'Times New Roman', Times, serif; margin-left: 3cm; margin-right: 1cm; margin-top: 2cm; 
+margin-bottom: 2cm; color: black; font-size: 12pt}
+
+nav {display: none}
+
+footer {display: none}}
+
+@media only screen and (max-width: 1024px) {p {background-color: blue}} 
+    /*Padariau melynai, kad parodyti jog prisitaiko*/
+
+@media only screen and (max-width: 768px) {p {background-color: transparent} .flex-container > div {flex-flow: column;} .flex-container {flex-flow: column}}
+
+@media only screen and (max-width: 212px) {nav > img {width: 100%}}
+
+/*Nesupratau ko praset, kai raset ">1024 uzduoty", tai padariau, kaip supratau, kad jei maziau nei 1024px, puslapis prisitaikys prie plancetes, 
+o jei maziau, nei 768px tai prisitaikys prie mobiliojo ekrano*/
